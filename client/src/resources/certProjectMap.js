@@ -10,6 +10,12 @@ const apiMicroBase =
 const infoSecBase =
   '/learn/information-security-and-quality-assurance/' +
   'information-security-and-quality-assurance-projects';
+const sciPyBase =
+  '/learn/scientific-computing-with-python/' +
+  'scientific-computing-with-python-projects';
+const dataAnalysisPyBase =
+  '/learn/data-analysis-with-python/data-analysis-with-python-projects';
+const machineLearningBase = '/learn/machine-learning/machine-learning-projects';
 const legacyFrontEndBase = '';
 const legacyBackEndBase = '';
 const legacyDataVisBase = '';
@@ -394,6 +400,114 @@ export const projectMap = {
       title: 'Anonymous Message Board',
       link: `${infoSecBase}/anonymous-message-board`,
       superBlock: 'information-security-and-quality-assurance'
+    },
+    {
+      id: '5e46f979ac417301a38fb932',
+      title: 'Port Scanner',
+      link: `${infoSecBase}/port-scanner`,
+      superBlock: 'information-security-and-quality-assurance'
+    },
+    {
+      id: '5e46f983ac417301a38fb933',
+      title: 'SHA-1 Password Cracker',
+      link: `${infoSecBase}/sha-1-password-cracker`,
+      superBlock: 'information-security-and-quality-assurance'
+    }
+  ],
+  'Scientific Computing in Python': [
+    {
+      id: '5e44412c903586ffb414c94c',
+      title: 'Arithmetic Formatter',
+      link: `${sciPyBase}/arithmetic-formatter`,
+      superBlock: 'scientific-computing-with-python'
+    },
+    {
+      id: '5e444136903586ffb414c94d',
+      title: 'Time Calculator',
+      link: `${sciPyBase}/time-calculator`,
+      superBlock: 'scientific-computing-with-python'
+    },
+    {
+      id: '5e44413e903586ffb414c94e',
+      title: 'Budget App',
+      link: `${sciPyBase}/budget-app`,
+      superBlock: 'scientific-computing-with-python'
+    },
+    {
+      id: '5e444147903586ffb414c94f',
+      title: 'Polygon Area Calculator',
+      link: `${sciPyBase}/polygon-area-calculator`,
+      superBlock: 'scientific-computing-with-python'
+    },
+    {
+      id: '5e44414f903586ffb414c950',
+      title: 'Probability Calculator',
+      link: `${sciPyBase}/probability-calculator`,
+      superBlock: 'scientific-computing-with-python'
+    }
+  ],
+  'Data Analysis in Python': [
+    {
+      id: '5e46f7e5ac417301a38fb928',
+      title: 'Mean-Variance-Standard Deviation Calculator',
+      link: `${dataAnalysisPyBase}/mean-variance-standard-deviation-calculator`,
+      superBlock: 'data-analysis-with-python'
+    },
+    {
+      id: '5e46f7e5ac417301a38fb929',
+      title: 'Demographic Data Analyzer',
+      link: `${dataAnalysisPyBase}/demographic-data-analyzer`,
+      superBlock: 'data-analysis-with-python'
+    },
+    {
+      id: '5e46f7f8ac417301a38fb92a',
+      title: 'Medical Data Visualizer',
+      link: `${dataAnalysisPyBase}/medical-data-visualizer`,
+      superBlock: 'data-analysis-with-python'
+    },
+    {
+      id: '5e46f802ac417301a38fb92b',
+      title: 'Page View Time Series Visualizer',
+      link: `${dataAnalysisPyBase}/page-view-time-series-visualizer`,
+      superBlock: 'data-analysis-with-python'
+    },
+    {
+      id: '5e4f5c4b570f7e3a4949899f',
+      title: 'Sea Level Predictor',
+      link: `${dataAnalysisPyBase}/sea-level-predictor`,
+      superBlock: 'scientific-computing-with-python'
+    }
+  ],
+  'Machine Learning': [
+    {
+      id: '5e46f8d6ac417301a38fb92d',
+      title: 'Rock Paper Scissors',
+      link: `${machineLearningBase}/rock-paper-scissors`,
+      superBlock: 'machine-learning'
+    },
+    {
+      id: '5e46f8dcac417301a38fb92e',
+      title: 'Cat and Dog Image Classifier',
+      link: `${machineLearningBase}/cat-and-dog-image-classifier`,
+      superBlock: 'machine-learning'
+    },
+    {
+      id: '5e46f8e3ac417301a38fb92f',
+      title: 'Book Recommendation Engine using KNN',
+      link: `${machineLearningBase}/book-recommendation-engine-using-knn`,
+      superBlock: 'machine-learning'
+    },
+    {
+      id: '5e46f8edac417301a38fb930',
+      title: 'Linear Regression Health Costs Calculator',
+      link: `${machineLearningBase}/linear-regression-health-costs-calculator`,
+      superBlock: 'machine-learning'
+    },
+    {
+      id: '5e46f8edac417301a38fb931',
+      title: 'Neural Network SMS Text Classifier',
+      link: `${machineLearningBase}/neural-network-sms-text-classifier`,
+      superBlock: 'machine-learning'
     }
   ]
 };
