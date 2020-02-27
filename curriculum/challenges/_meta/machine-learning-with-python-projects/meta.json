@@ -1,9 +1,9 @@
 {
-  "name": "Machine Learning Projects",
-  "dashedName": "machine-learning-projects",
+  "name": "Machine Learning with Python Projects",
+  "dashedName": "machine-learning-with-python-projects",
   "order": 1,
   "time": "150 hours",
-  "superBlock": "machine-learning",
+  "superBlock": "machine-learning-with-python",
   "superOrder": 9,
   "challengeOrder": [
     [

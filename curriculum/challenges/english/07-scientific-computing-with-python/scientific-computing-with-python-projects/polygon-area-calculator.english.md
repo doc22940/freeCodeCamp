@@ -3,7 +3,6 @@ id: 5e444147903586ffb414c94f
 title: Polygon Area Calculator
 challengeType: 4
 isRequired: true
-forumTopicId: 301508
 ---
 
 ## Description

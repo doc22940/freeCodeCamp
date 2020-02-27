@@ -10,12 +10,13 @@ const apiMicroBase =
 const infoSecBase =
   '/learn/information-security-and-quality-assurance/' +
   'information-security-and-quality-assurance-projects';
-const sciPyBase =
+const sciCompPyBase =
   '/learn/scientific-computing-with-python/' +
   'scientific-computing-with-python-projects';
 const dataAnalysisPyBase =
   '/learn/data-analysis-with-python/data-analysis-with-python-projects';
-const machineLearningBase = '/learn/machine-learning/machine-learning-projects';
+const machineLearningPyBase =
+  '/learn/machine-learning-with-python/machine-learning-with-python-projects';
 const legacyFrontEndBase = '';
 const legacyBackEndBase = '';
 const legacyDataVisBase = '';
@@ -414,39 +415,39 @@ export const projectMap = {
       superBlock: 'information-security-and-quality-assurance'
     }
   ],
-  'Scientific Computing in Python': [
+  'Scientific Computing with Python': [
     {
       id: '5e44412c903586ffb414c94c',
       title: 'Arithmetic Formatter',
-      link: `${sciPyBase}/arithmetic-formatter`,
+      link: `${sciCompPyBase}/arithmetic-formatter`,
       superBlock: 'scientific-computing-with-python'
     },
     {
       id: '5e444136903586ffb414c94d',
       title: 'Time Calculator',
-      link: `${sciPyBase}/time-calculator`,
+      link: `${sciCompPyBase}/time-calculator`,
       superBlock: 'scientific-computing-with-python'
     },
     {
       id: '5e44413e903586ffb414c94e',
       title: 'Budget App',
-      link: `${sciPyBase}/budget-app`,
+      link: `${sciCompPyBase}/budget-app`,
       superBlock: 'scientific-computing-with-python'
     },
     {
       id: '5e444147903586ffb414c94f',
       title: 'Polygon Area Calculator',
-      link: `${sciPyBase}/polygon-area-calculator`,
+      link: `${sciCompPyBase}/polygon-area-calculator`,
       superBlock: 'scientific-computing-with-python'
     },
     {
       id: '5e44414f903586ffb414c950',
       title: 'Probability Calculator',
-      link: `${sciPyBase}/probability-calculator`,
+      link: `${sciCompPyBase}/probability-calculator`,
       superBlock: 'scientific-computing-with-python'
     }
   ],
-  'Data Analysis in Python': [
+  'Data Analysis with Python': [
     {
       id: '5e46f7e5ac417301a38fb928',
       title: 'Mean-Variance-Standard Deviation Calculator',
@@ -478,36 +479,36 @@ export const projectMap = {
       superBlock: 'scientific-computing-with-python'
     }
   ],
-  'Machine Learning': [
+  'Machine Learning with Python': [
     {
       id: '5e46f8d6ac417301a38fb92d',
       title: 'Rock Paper Scissors',
-      link: `${machineLearningBase}/rock-paper-scissors`,
-      superBlock: 'machine-learning'
+      link: `${machineLearningPyBase}/rock-paper-scissors`,
+      superBlock: 'machine-learning-with-python'
     },
     {
       id: '5e46f8dcac417301a38fb92e',
       title: 'Cat and Dog Image Classifier',
-      link: `${machineLearningBase}/cat-and-dog-image-classifier`,
-      superBlock: 'machine-learning'
+      link: `${machineLearningPyBase}/cat-and-dog-image-classifier`,
+      superBlock: 'machine-learning-with-python'
     },
     {
       id: '5e46f8e3ac417301a38fb92f',
       title: 'Book Recommendation Engine using KNN',
-      link: `${machineLearningBase}/book-recommendation-engine-using-knn`,
-      superBlock: 'machine-learning'
+      link: `${machineLearningPyBase}/book-recommendation-engine-using-knn`,
+      superBlock: 'machine-learning-with-python'
     },
     {
       id: '5e46f8edac417301a38fb930',
       title: 'Linear Regression Health Costs Calculator',
-      link: `${machineLearningBase}/linear-regression-health-costs-calculator`,
-      superBlock: 'machine-learning'
+      link: `${machineLearningPyBase}/linear-regression-health-costs-calculator`,
+      superBlock: 'machine-learning-with-python'
     },
     {
       id: '5e46f8edac417301a38fb931',
       title: 'Neural Network SMS Text Classifier',
-      link: `${machineLearningBase}/neural-network-sms-text-classifier`,
-      superBlock: 'machine-learning'
+      link: `${machineLearningPyBase}/neural-network-sms-text-classifier`,
+      superBlock: 'machine-learning-with-python'
     }
   ]
 };

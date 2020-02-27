@@ -20,7 +20,7 @@ import {
   apisMicroservicesId,
   infosecQaId,
   fullStackId,
-  scientificComputingPyId,
+  sciCompPyId,
   dataAnalysisPyId,
   machineLearningPyId
 } from '../utils/constantStrings.json';
@@ -97,12 +97,12 @@ function createCertTypeIds(app) {
     ),
     [certTypes.infosecQa]: getIdsForCert$(infosecQaId, Challenge),
     [certTypes.fullStack]: getIdsForCert$(fullStackId, Challenge),
-    [certTypes.scientificComputingPy]: getIdsForCert$(
-      scientificComputingPyId,
-      Challenge
-    ),
+    [certTypes.sciCompPy]: getIdsForCert$(sciCompPyId, Challenge),
     [certTypes.dataAnalysisPy]: getIdsForCert$(dataAnalysisPyId, Challenge),
-    [certTypes.machineLearning]: getIdsForCert$(machineLearningPyId, Challenge)
+    [certTypes.machineLearningPy]: getIdsForCert$(
+      machineLearningPyId,
+      Challenge
+    )
   };
 }
 
@@ -123,9 +123,9 @@ const certIds = {
   [certTypes.apisMicroservices]: apisMicroservicesId,
   [certTypes.infosecQa]: infosecQaId,
   [certTypes.fullStack]: fullStackId,
-  [certTypes.scientificComputingPy]: scientificComputingPyId,
+  [certTypes.sciCompPy]: sciCompPyId,
   [certTypes.dataAnalysisPy]: dataAnalysisPyId,
-  [certTypes.machineLearning]: machineLearningPyId
+  [certTypes.machineLearningPy]: machineLearningPyId
 };
 
 const certText = {
@@ -139,9 +139,9 @@ const certText = {
   [certTypes.dataVis2018]: 'Data Visualization',
   [certTypes.apisMicroservices]: 'APIs and Microservices',
   [certTypes.infosecQa]: 'Information Security and Quality Assurance',
-  [certTypes.scientificComputingPy]: 'Scientific Computing with Python',
+  [certTypes.sciCompPy]: 'Scientific Computing with Python',
   [certTypes.dataAnalysisPy]: 'Data Analysis with Python',
-  [certTypes.machineLearning]: 'Machine Learning'
+  [certTypes.machineLearningPy]: 'Machine Learning with Python'
 };
 
 const completionHours = {
@@ -155,9 +155,9 @@ const completionHours = {
   [certTypes.dataVis2018]: 300,
   [certTypes.apisMicroservices]: 300,
   [certTypes.infosecQa]: 300,
-  [certTypes.scientificComputingPy]: 400,
+  [certTypes.sciCompPy]: 400,
   [certTypes.dataAnalysisPy]: 400,
-  [certTypes.machineLearning]: 400
+  [certTypes.machineLearningPy]: 400
 };
 
 function getIdsForCert$(id, Challenge) {
@@ -182,9 +182,9 @@ function sendCertifiedEmail(
     isDataVisCert,
     isApisMicroservicesCert,
     isInfosecQaCert,
-    isSciPyCert,
+    isSciCompPyCert,
     isDataAnalysisPyCert,
-    isMachineLearningCert
+    isMachineLearningPyCert
   },
   send$
 ) {
@@ -196,9 +196,9 @@ function sendCertifiedEmail(
     !isDataVisCert ||
     !isApisMicroservicesCert ||
     !isInfosecQaCert ||
-    !isSciPyCert ||
+    !isSciCompPyCert ||
     !isDataAnalysisPyCert ||
-    !isMachineLearningCert
+    !isMachineLearningPyCert
   ) {
     return Observable.just(false);
   }
@@ -230,9 +230,9 @@ function getUserIsCertMap(user) {
     isBackEndCert = false,
     isDataVisCert = false,
     isFullStackCert = false,
-    isSciPyCert = false,
+    isSciCompPyCert = false,
     isDataAnalysisPyCert = false,
-    isMachineLearningCert = false
+    isMachineLearningPyCert = false
   } = user;
 
   return {
@@ -246,9 +246,9 @@ function getUserIsCertMap(user) {
     isBackEndCert,
     isDataVisCert,
     isFullStackCert,
-    isSciPyCert,
+    isSciCompPyCert,
     isDataAnalysisPyCert,
-    isMachineLearningCert
+    isMachineLearningPyCert
   };
 }
 
@@ -369,9 +369,9 @@ function createShowCert(app) {
       is2018DataVisCert: true,
       isApisMicroservicesCert: true,
       isInfosecQaCert: true,
-      isSciPyCert: true,
+      isSciCompPyCert: true,
       isDataAnalysisPyCert: true,
-      isMachineLearningCert: true,
+      isMachineLearningPyCert: true,
       isHonest: true,
       username: true,
       name: true,

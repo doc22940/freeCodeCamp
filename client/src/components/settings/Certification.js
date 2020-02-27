@@ -44,6 +44,7 @@ const propTypes = {
   is2018DataVisCert: PropTypes.bool,
   isApisMicroservicesCert: PropTypes.bool,
   isBackEndCert: PropTypes.bool,
+  isDataAnalysisPyCert: PropTypes.bool,
   isDataVisCert: PropTypes.bool,
   isFrontEndCert: PropTypes.bool,
   isFrontEndLibsCert: PropTypes.bool,
@@ -51,8 +52,9 @@ const propTypes = {
   isHonest: PropTypes.bool,
   isInfosecQaCert: PropTypes.bool,
   isJsAlgoDataStructCert: PropTypes.bool,
+  isMachineLearningPyCert: PropTypes.bool,
   isRespWebDesignCert: PropTypes.bool,
-  isSciPyCert: PropTypes.bool,
+  isSciCompPyCert: PropTypes.bool,
   updateLegacyCert: PropTypes.func.isRequired,
   username: PropTypes.string,
   verifyCert: PropTypes.func.isRequired
@@ -71,7 +73,9 @@ const isCertSelector = ({
   isFrontEndLibsCert,
   isFullStackCert,
   isRespWebDesignCert,
-  isSciPyCert
+  isSciCompPyCert,
+  isDataAnalysisPyCert,
+  isMachineLearningPyCert
 }) => ({
   is2018DataVisCert,
   isApisMicroservicesCert,
@@ -83,7 +87,9 @@ const isCertSelector = ({
   isFrontEndLibsCert,
   isFullStackCert,
   isRespWebDesignCert,
-  isSciPyCert
+  isSciCompPyCert,
+  isDataAnalysisPyCert,
+  isMachineLearningPyCert
 });
 
 const isCertMapSelector = createSelector(
@@ -98,7 +104,9 @@ const isCertMapSelector = createSelector(
     isDataVisCert,
     isFrontEndCert,
     isBackEndCert,
-    isSciPyCert
+    isSciCompPyCert,
+    isDataAnalysisPyCert,
+    isMachineLearningPyCert
   }) => ({
     'Responsive Web Design': isRespWebDesignCert,
     'JavaScript Algorithms and Data Structures': isJsAlgoDataStructCert,
@@ -106,7 +114,9 @@ const isCertMapSelector = createSelector(
     'Data Visualization': is2018DataVisCert,
     "API's and Microservices": isApisMicroservicesCert,
     'Information Security And Quality Assurance': isInfosecQaCert,
-    'Scientific Computing with Python': isSciPyCert,
+    'Scientific Computing with Python': isSciCompPyCert,
+    'Data Analysis with Python': isDataAnalysisPyCert,
+    'Machine Learning with Python': isMachineLearningPyCert,
     'Legacy Front End': isFrontEndCert,
     'Legacy Data Visualization': isDataVisCert,
     'Legacy Back End': isBackEndCert

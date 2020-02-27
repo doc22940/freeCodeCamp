@@ -42,7 +42,7 @@ tests:
 ## Solution
 <section id='solution'>
 
-```py
+```js
 // solution required
 ```
 

@@ -3,7 +3,6 @@ id: 5e44414f903586ffb414c950
 title: Probability Calculator
 challengeType: 4
 isRequired: true
-forumTopicId: 301508
 ---
 
 ## Description

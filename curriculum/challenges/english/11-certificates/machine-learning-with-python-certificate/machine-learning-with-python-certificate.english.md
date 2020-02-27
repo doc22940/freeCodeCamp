@@ -1,6 +1,6 @@
 ---
 id: 5e46fc95ac417301a38fb935
-title: Machine Learning Certificate
+title: Machine Learning with Python Certificate
 challengeType: 7
 isPrivate: true
 ---
@@ -42,7 +42,7 @@ tests:
 ## Solution
 <section id='solution'>
 
-```py
+```js
 // solution required
 ```
 

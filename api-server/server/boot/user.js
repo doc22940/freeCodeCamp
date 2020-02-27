@@ -167,7 +167,9 @@ function postResetProgress(req, res, next) {
       isBackEndCert: false,
       isDataVisCert: false,
       isFullStackCert: false,
-      isSciPyCert: false,
+      isSciCompPyCert: false,
+      isDataAnalysisPyCert: false,
+      isMachineLearningPyCert: false,
       completedChallenges: []
     },
     function(err) {

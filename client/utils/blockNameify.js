@@ -18,7 +18,9 @@ const preFormattedBlockNames = {
     'Scientific Computing with Python Projects',
   'data-analysis-with-python': 'Data Analysis with Python',
   'data-analysis-with-python-projects': 'Data Analysis with Python Projects',
-  'machine-learning': 'Machine Learning'
+  'machine-learning-with-python': 'Machine Learning with Python',
+  'machine-learning-with-python-projects':
+    'Machine Learning with Python Projects'
 };
 
 const noFormatting = ['and', 'for', 'of', 'the', 'up', 'with'];

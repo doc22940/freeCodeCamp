@@ -3,7 +3,6 @@ id: 5e44413e903586ffb414c94e
 title: Budget App
 challengeType: 4
 isRequired: true
-forumTopicId: 301508
 ---
 
 ## Description

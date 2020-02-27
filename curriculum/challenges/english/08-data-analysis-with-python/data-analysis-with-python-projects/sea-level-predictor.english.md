@@ -3,7 +3,6 @@ id: 5e4f5c4b570f7e3a4949899f
 title: Sea Level Predictor
 challengeType: 4
 isRequired: true
-forumTopicId: 301508
 ---
 
 ## Description

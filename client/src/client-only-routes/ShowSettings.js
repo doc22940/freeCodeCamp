@@ -61,8 +61,10 @@ const propTypes = {
     isHonest: PropTypes.bool,
     isInfosecQaCert: PropTypes.bool,
     isJsAlgoDataStructCert: PropTypes.bool,
-    isSciPyCert: PropTypes.bool,
     isRespWebDesignCert: PropTypes.bool,
+    isSciCompPyCert: PropTypes.bool,
+    isDataAnalysisPyCert: PropTypes.bool,
+    isMachineLearningPyCert: PropTypes.bool,
     linkedin: PropTypes.string,
     location: PropTypes.string,
     name: PropTypes.string,
@@ -133,7 +135,9 @@ export function ShowSettings(props) {
       isFrontEndLibsCert,
       isFullStackCert,
       isRespWebDesignCert,
-      isSciPyCert,
+      isSciCompPyCert,
+      isDataAnalysisPyCert,
+      isMachineLearningPyCert,
       isEmailVerified,
       isHonest,
       sendQuincyEmail,
@@ -235,6 +239,7 @@ export function ShowSettings(props) {
             is2018DataVisCert={is2018DataVisCert}
             isApisMicroservicesCert={isApisMicroservicesCert}
             isBackEndCert={isBackEndCert}
+            isDataAnalysisPyCert={isDataAnalysisPyCert}
             isDataVisCert={isDataVisCert}
             isFrontEndCert={isFrontEndCert}
             isFrontEndLibsCert={isFrontEndLibsCert}
@@ -242,8 +247,9 @@ export function ShowSettings(props) {
             isHonest={isHonest}
             isInfosecQaCert={isInfosecQaCert}
             isJsAlgoDataStructCert={isJsAlgoDataStructCert}
+            isMachineLearningPyCert={isMachineLearningPyCert}
             isRespWebDesignCert={isRespWebDesignCert}
-            isSciPyCert={isSciPyCert}
+            isSciCompPyCert={isSciCompPyCert}
             username={username}
             verifyCert={verifyCert}
           />
